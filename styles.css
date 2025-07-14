@@ -36,9 +36,10 @@ body {
   font-size: 0;
   perspective: 500px;
   position: relative;
-  height: 800px;
-  overflow: hidden;
+  width: 1000px;      /* or 100% if you want */
+  height: 800px;      /* This is critical */
   border: 1px solid white;
+  overflow: hidden;
 }
 
 .items.active {
