@@ -19,7 +19,7 @@ body {
 }
 
 .items {
-  height: 800px;
+  /* height: 800px;
   padding: 100px;
   width: 100%;
   border: 1px solid white;
@@ -34,10 +34,10 @@ body {
   position: relative;
   background: rgba(255,255,255,0.1);
   font-size: 0;
-  perspective: 500px;
+  perspective: 500px; */
   position: relative;
-  width: 1000px;      /* or 100% if you want */
-  height: 800px;      /* This is critical */
+  width: 1000px;      /* good */
+  height: 800px;      /* good */
   border: 1px solid white;
   overflow: hidden;
 }
@@ -52,13 +52,13 @@ body {
 .item {
   width: 200px;
   height: calc(100% - 40px);
-  display: inline-flex;
+  /* display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 80px;
   font-weight: 100;
   color: rgba(0,0,0,0.15);
-  box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15);
+  box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15); */
   position: absolute;
 	 width: 100px;
   height: 100px;
